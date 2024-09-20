@@ -1,0 +1,175 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb;
+}
+
+.abc {
+    display: flex;
+    text-align: left;
+    align-items: left;
+ }
+ .abc h1 {
+    margin-top: 12px;
+    margin-left: 10px;
+ }
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #16a34a;
+}
+input::placeholder {
+    color: #14532d; /* Dark green color for placeholder text */
+    font-style: italic; /* Italic style */
+    opacity: 0.7; /* Slight transparency */
+}
+
+/* Additional styling for the search input */
+input[type="text"] {
+    padding: 5px 10px;
+    border: 2px solid #14532d;
+    border-radius: 5px;
+    width: 300px; /* Increased width */
+}
+nav a {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #16a34a;
+    text-align: left;
+}
+
+nav a:hover {
+    color: #14532d;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('Agricultural-investments.webp');
+    text-align: center;
+    padding: 50px;
+    background-color: #ccfbf1;
+    height: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.hero input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6b7280;
+    width: 300px;
+}
+
+/* Services Section */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #14532d;
+}
+.ad {
+    display: flex;
+}
+.service-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #16a34a;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #4b5563;
+}
+/* Features */
+.features {
+   background-color: #dad6d0;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+    width : 2000px;
+}
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0b3421;
+    text-align: center;
+}
+.F1 {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+}
+.F1 h3 {
+    font-size: 1.5rem;
+    color: #16a34a;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.F1 p {
+    font-size: 1rem;
+    color: #4b5563;
+}
+/* Footer Section */
+footer {
+    display: flex;
+    background-color: #f9fafb;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #e5e7eb;
+    margin-left: 700px;
+}
+
+footer p {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+footer nav a {
+    margin: 0 10px;
+    color: #14532d;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
